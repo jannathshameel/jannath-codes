@@ -1,0 +1,6 @@
+a=7
+b=int(input('Enter the guessed number"))
+while b!=a:
+  print("Try again!")
+  b=int(input("Okay bestie, try again!"))
+print("Correct, the answer is indeed",a)
