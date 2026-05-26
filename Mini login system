@@ -1,0 +1,16 @@
+username=input("Enter username")
+password=input("Enter password")
+if username=="admin" and password=="python123":
+  print("ACCESS GRANTED")
+else:
+  print("ACCESS DENIED")
+tryagain=input("TYPE YES TO TRY AGAIN AND NO TO NOT TRY AGAIN")
+while tryagain=="yes":
+  username=input("Enter username")
+  password=input("Enter password")
+  if username=="admin" and password=="python123":
+    print("ACCESS GRANTED")
+  else:
+    print("ACCESS DENIED")
+  tryagain=input("TYPE YES TO TRY AGAIN AND NO TO NOT TRY AGAIN")
+print("END")
